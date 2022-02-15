@@ -5,137 +5,378 @@
 }
 
 html {
-    font-size: 62.5%;
+
+    scroll-behavior: smooth;
+     font-size: 62.5%;
 
 }
 
-.first-page-container{
-   
-    height: 100vh;
-    display:flex;
+body {
     
-    animation-name:slidedown ;
-    animation-duration: 2.5s;
+      background-color:rgb(0, 0, 0);
 }
+
+header {
+    
+      animation-name:slidedown;
+      animation-duration: 2.5s;
+    
+}
+
+nav ol{
+
+      display: flex;
+      list-style: none;
+      justify-content: space-evenly;
+
+}
+
+nav ol li {
+
+      padding: 3px;
+      margin: 19px 0 19px 0;
+      border: 1px solid black;
+      font-size: 1.2rem;
+      font-weight: bold;
+    
+    
+} 
+
+#navigate {
+
+       text-decoration: none;
+       color: slategray;
+}
+
+.first-page-container {
+    
+      margin: auto;
+      width: 90%;
+      display: flex;
+      height: 100vh;
+   
+}
+
 
 .left-side {
     
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    padding-top: 30rem;
-    width: 50% ;
-    background-color:whitesmoke;
+      padding-top: 26rem;
+      width: 50% ;
+      background-color:rgba(236, 228, 228, 0.425);
+      color:rgb(75, 54, 22);
+}
+
+.rightside {
+
+      background-image:url(https://images.unsplash.com/photo-1598504775866-e842291dbe10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60) ;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 50%;
+
+}
+
+h1 {
     
+      text-align: center;
+      font-size: 6rem; 
+}
+
+.left-side-text {
+    
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+}
+
+
+.menu-btn {
+
+       margin-top: 30px;
+       color:rgb(75, 54, 22);
+       border: 1px solid gray;
+       background-color:rgba(112, 128, 144, 0.24);
+       height: 32px;
+       width: 23%;
+
+}
+
+#menu-btn {
+
+      text-decoration: none;
+      color:rgb(75, 54, 22); ;
+}
+
+
+.secondpage-container {
+
+        margin: auto;
+        width: 90%;
    
 }
 
-h1 {text-align: center;
-    font-size: 6rem;
+.pizza-background {
+
+        margin: auto;
+        width: 100%;
+        background-image: url(https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1081&q=80);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 120px;
+
+}
+
+h2 {
+
+        font-size: 2.1rem;
+        padding-top:4rem;
+        text-align: center;
+        color:rgb(75, 54, 22);
+}
+
+.ourstory {
     
+        line-height: 19px;
+        margin:42px 52px 0 52px ;
+        color:rgb(95, 67, 25);
+        font-size: 1.4rem;
+        padding-bottom: 30px;
+}
+
+.spahgettimage_and_text {
+   
+        display: flex;
+        color:rgb(75, 54, 22) ;
+   
+}
+
+.spahgetti_text {
+    
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        color:rgb(112, 80, 31);
+        font-size: 1rem;
+
 }
 
 
-.Header-paragraph2{
-    margin-bottom: 4rem;
+.dessert {
+    
+ 
+        display: flex;
+        margin-bottom: 50px;
 }
 
-#all-arrows{
+.chocolate_jar_text {
+
+        width: 50%;
+        color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:rgb(112, 80, 31);
+
+}
+
+.menu {
   
-    font-size: 4rem;
-}
-/*.arrow1{
-    font-size: 4rem;
-
-    
-}*/
-
-
-.image1{
-  
-    width: 50% ;
-}
-
-.Second-page-container {
-    
+    width: 90%;
+    margin: auto;
     display: flex;
-    height: 100vh;
-  
-   
-    
-
- }
-
- h2 {
-     font-size: 3rem;
-     background-color: whitesmoke;
-     width: 50%;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-   
-
-     
- }
-
- .arrow2 {
-     margin-top: 2rem;
-   
-
- }
- .right-side {
-     width: 50%;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
- }
-
- text{
-     font-size: 1.2rem;
-     width: 50%;
-     margin-bottom: 3rem;
-    
- }
-
- .image2 {
-     width: 60%;
-
- }
-
- .third-page-container {
-
-   height: 100vh;
-    display: flex;
- }
-
-
-
- h3{
-    
-    font-size: 3rem;
-    background-color: whitesmoke;
-    width: 50%;
-    display: flex;
+    padding:40px 0 40px 0 ;
+    margin-bottom: 30px;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-  
-
- }
-
- .image3-container{
-   
-     display: flex;
-     flex-direction: column;
-     width: 50%;
-     align-items: center;
-     justify-content: center;
- }
-.image3 {
-    width:100%;
+    border: 1px dotted white;
+ 
 }
+
+
+.dish-titles {
+
+    color: rgb(216, 176, 46);
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+#dishes {
+
+  display:flex;
+  margin:45px 0 45px 0;
+  justify-content: space-around;
+  
+}
+
+
+
+#menu-items {
+
+
+     text-align: center;
+     color:rgba(219, 216, 208, 0.918);
+     max-width: 20%;
+     line-height: 14px;
+
+}
+
+
+
+.reservation {
+    
+        margin: auto;
+        width: 90%;
+   
+}
+
+
+h3 {
+
+        margin: auto;
+        background-color: rgba(189, 145, 51, 0.678);
+        width: 90%;
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 13px ;
+        margin-bottom: 13px;
+
+}
+
+#reservation-fill-out {
+
+        padding: 30px 0 30px 0;
+}
+
+form {
+
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+}
+
+
+#reservation-form {
+
+        margin: 1rem;
+        border: 1px solid slategrey;
+        text-align: center;
+        outline: none; 
+        height: 3rem;
+        width: 25%;
+        background-color: rgb(0, 0, 0);
+        color: rgba(159, 163, 167, 0.719);
+}
+
+
+#time{
+
+        text-align: center;
+        color: rgb(11, 17, 24);
+        background-color: rgba(224, 213, 213, 0.911);
+        width: 25%;
+        margin:  10px 0 10px 0;
+        outline: none;
+}
+
+.number_of_guest {
+ 
+       font-size: 1.3rem;
+       color: slategrey;
+       margin-bottom: 9px;
+
+
+}
+
+#guest{
+
+        text-align: center;
+        width: 25%;
+        background-color:rgba(224, 213, 213, 0.911); 
+
+}
+
+h4 {
+       
+       width: 90%;
+       color:black;
+       margin: auto;
+       height: 24px; 
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-bottom: 32px;
+       background-color: rgba(189, 145, 51, 0.678);
+        
+    
+}
+
+.contact-us {
+      
+       font-size: 1.5rem;
+       color:rgba(230, 176, 62, 0.678) ;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+
+}
+
+h5 {
+   
+   
+      
+       text-align: center;
+       color:rgba(189, 145, 51, 0.678) ;
+       font-size: 1.9rem;
+       margin-bottom: 12px;
+}
+
+.address{
+   
+    
+       text-align: center;
+       font-size: 1.7rem;
+       color:rgba(230, 176, 62, 0.678) ;
+       margin-bottom: 16px;
+       
+}
+.openHours-phone-email {
+    
+       width: 70%;
+       margin: auto;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-wrap: wrap;
+       margin-bottom: 18px;
+       
+       font-size: 1.3rem;
+
+}
+
+.SocailMedia {
+    
+      font-size: 2.6rem;
+      color:rgba(218, 165, 32, 0.534);
+      width: 50%;
+      display: flex;
+      margin: auto;
+      padding:2.3rem ;
+      justify-content: space-between;
+      align-items: center;
+}
+
+
 
 @keyframes slidedown {
     0%{ transform:translatex(-70px);
@@ -150,17 +391,44 @@ h1 {text-align: center;
  
 }
 
+@media (max-width:700px){
+
+  h1 {
+
+    font-size: 29px;
+
+     }
+
+}
 
 
 @media (max-width:500px){
-    html{font-size: 45%;}
-    .left-side{
-        text-align: center;
+
+   
+    #menu-items {
+
+        font-size: .3rem;
     }
-    
+
+
 }
 
-@media (max-width:375px){
-    html{font-size: 35%;}
+
+@media (max-width:403px){
+
+ .openHours-phone-email {
+   
+    text-align: center;
 }
+
+ nav ol li {
+
+    font-size: .6rem;
+}
+
+
+}
+
+
+
 
