@@ -6,7 +6,7 @@
 
 html {
 
-    scroll-behavior: smooth;
+     scroll-behavior:smooth;
      font-size: 62.5%;
 
 }
@@ -58,9 +58,13 @@ nav ol li {
 }
 
 
-.left-side {
+.left-side { 
     
-      padding-top: 26rem;
+    
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       width: 50% ;
       background-color:rgba(236, 228, 228, 0.425);
       color:rgb(75, 54, 22);
@@ -86,9 +90,9 @@ h1 {
     
        display: flex;
        flex-direction: column;
-       align-items: center;
-       justify-content: center;
        text-align: center;
+       align-items: center;
+       
 }
 
 
@@ -99,7 +103,7 @@ h1 {
        border: 1px solid gray;
        background-color:rgba(112, 128, 144, 0.24);
        height: 32px;
-       width: 23%;
+       width: 33%;
 
 }
 
@@ -405,11 +409,15 @@ h5 {
 @media (max-width:500px){
 
    
+    
     #menu-items {
 
         font-size: .3rem;
     }
 
+   h4 {
+     font-size: .3rem;
+ }
 
 }
 
