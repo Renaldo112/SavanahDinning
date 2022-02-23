@@ -104,13 +104,13 @@ h1 {
        background-color:rgba(112, 128, 144, 0.24);
        height: 32px;
        width: 33%;
-
+       
 }
 
-#menu-btn {
+ #menu-btn {
 
-      text-decoration: none;
-      color:rgb(75, 54, 22); ;
+     text-decoration: none;
+     color:rgb(75, 54, 22); 
 }
 
 
@@ -131,6 +131,8 @@ h1 {
         background-attachment: fixed;
         background-size: cover;
         height: 120px;
+        z-index: -1;
+        
 
 }
 
