@@ -7,7 +7,8 @@ Description:
 
 - Small Restaurant Project
 - Inspired by my favorite italian restuarant
-- Savanah Dining brings with best pasta and outstanding cusines from italy to Nyc!
+- Savanah Dining is a italian based restuarant that brings with best pasta and outstanding cusines from italy to Nyc!
+
 
 
 
