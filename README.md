@@ -5,4 +5,4 @@
 
 - Small Restaurant Project
 - Inspired by my favorite italian restuarant
-- Savanah Dining comes with best pasta and outstanding cusines to Nyc!
+- Savanah Dining brings with best pasta and outstanding cusines from italy to Nyc!
