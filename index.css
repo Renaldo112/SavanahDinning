@@ -131,7 +131,7 @@ h1 {
         background-attachment: fixed;
         background-size: cover;
         height: 120px;
-        z-index: -1;
+   ;
         
 
 }
@@ -168,8 +168,7 @@ h2 {
         justify-content: center;
         width: 50%;
         color:rgb(112, 80, 31);
-        font-size: 1rem;
-
+        font-size: 1.1rem;
 }
 
 
@@ -189,6 +188,7 @@ h2 {
         align-items: center;
         justify-content: center;
         color:rgb(112, 80, 31);
+        font-size: 1.1rem;
 
 }
 
@@ -227,11 +227,12 @@ h2 {
 
 #menu-items {
 
-
+     
      text-align: center;
      color:rgba(219, 216, 208, 0.918);
      max-width: 20%;
      line-height: 14px;
+     font-size: 1.1rem;
 
 }
 
@@ -410,7 +411,6 @@ h5 {
 
 @media (max-width:500px){
 
-   
     
     #menu-items {
 
